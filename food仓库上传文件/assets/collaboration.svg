@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="400" y="34" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="22" font-weight="bold" fill="#2F5496" text-anchor="middle">图 7　加购下单闭环协作图（6 步编号消息）</text>
+<rect x="70" y="116" width="140" height="48" rx="6" fill="#E2EFDA" stroke="#2F5496" stroke-width="1.3"/>
+<text x="140" y="145" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">用户</text>
+<rect x="330" y="116" width="140" height="48" rx="6" fill="#E2EFDA" stroke="#2F5496" stroke-width="1.3"/>
+<text x="400" y="145" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">菜品详情</text>
+<rect x="590" y="116" width="140" height="48" rx="6" fill="#E2EFDA" stroke="#2F5496" stroke-width="1.3"/>
+<text x="660" y="145" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">购物车</text>
+<rect x="590" y="396" width="140" height="48" rx="6" fill="#E2EFDA" stroke="#2F5496" stroke-width="1.3"/>
+<text x="660" y="425" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">结算页</text>
+<rect x="330" y="396" width="140" height="48" rx="6" fill="#E2EFDA" stroke="#2F5496" stroke-width="1.3"/>
+<text x="400" y="425" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">订单</text>
+<rect x="70" y="396" width="140" height="48" rx="6" fill="#E2EFDA" stroke="#2F5496" stroke-width="1.3"/>
+<text x="140" y="425" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">本地Mock</text>
+<line x1="140" y1="140" x2="400" y2="140" stroke="#404040" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="218" y="128" width="104" height="22" fill="#FFFFFF"/>
+<text x="270" y="143" font-family="Microsoft YaHei" font-size="11.5" fill="#595959" text-anchor="middle">① 点击加购</text>
+<line x1="400" y1="140" x2="660" y2="140" stroke="#404040" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="478" y="128" width="104" height="22" fill="#FFFFFF"/>
+<text x="530" y="143" font-family="Microsoft YaHei" font-size="11.5" fill="#595959" text-anchor="middle">② 更新明细与数量</text>
+<line x1="660" y1="140" x2="660" y2="420" stroke="#404040" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="608" y="268" width="104" height="22" fill="#FFFFFF"/>
+<text x="660" y="283" font-family="Microsoft YaHei" font-size="11.5" fill="#595959" text-anchor="middle">③ 选地址提交</text>
+<line x1="660" y1="420" x2="400" y2="420" stroke="#404040" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="478" y="408" width="104" height="22" fill="#FFFFFF"/>
+<text x="530" y="423" font-family="Microsoft YaHei" font-size="11.5" fill="#595959" text-anchor="middle">④ 生成订单</text>
+<line x1="400" y1="420" x2="140" y2="420" stroke="#404040" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="218" y="408" width="104" height="22" fill="#FFFFFF"/>
+<text x="270" y="423" font-family="Microsoft YaHei" font-size="11.5" fill="#595959" text-anchor="middle">⑤ 写入 Mock</text>
+<line x1="140" y1="420" x2="140" y2="140" stroke="#404040" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="88" y="268" width="104" height="22" fill="#FFFFFF"/>
+<text x="140" y="283" font-family="Microsoft YaHei" font-size="11.5" fill="#595959" text-anchor="middle">⑥ 展示订单详情</text>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#404040"/></marker></defs>
+</svg>

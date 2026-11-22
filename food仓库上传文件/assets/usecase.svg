@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="680" viewBox="0 0 1280 680">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="640" y="34" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="22" font-weight="bold" fill="#2F5496" text-anchor="middle">图 3　系统用例图（用户 7 个用例 / 管理员 4 个用例）</text>
+<g stroke="#404040" stroke-width="2" fill="none">
+<circle cx="90" cy="150" r="14"/><line x1="90" y1="164" x2="90" y2="198"/>
+<line x1="70" y1="174" x2="110" y2="174"/>
+<line x1="90" y1="198" x2="72" y2="230"/><line x1="90" y1="198" x2="108" y2="230"/>
+</g><text x="90" y="254" font-family="Microsoft YaHei" font-size="16" fill="#404040" text-anchor="middle">学生（用户）</text>
+<g stroke="#404040" stroke-width="2" fill="none">
+<circle cx="1180" cy="150" r="14"/><line x1="1180" y1="164" x2="1180" y2="198"/>
+<line x1="1160" y1="174" x2="1200" y2="174"/>
+<line x1="1180" y1="198" x2="1162" y2="230"/><line x1="1180" y1="198" x2="1198" y2="230"/>
+</g><text x="1180" y="254" font-family="Microsoft YaHei" font-size="16" fill="#404040" text-anchor="middle">管理员</text>
+<rect x="250" y="70" width="770" height="560" rx="10" fill="none" stroke="#4472C4" stroke-width="2"/>
+<text x="270" y="98" font-family="Microsoft YaHei" font-size="15" fill="#595959">校园美食点餐平台</text>
+<ellipse cx="375" cy="138" rx="75" ry="26" fill="#D9E2F3" stroke="#2F5496" stroke-width="1.5"/>
+<text x="375" y="144" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">登录/注册</text>
+<ellipse cx="375" cy="208" rx="75" ry="26" fill="#D9E2F3" stroke="#2F5496" stroke-width="1.5"/>
+<text x="375" y="214" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">浏览商家菜品</text>
+<ellipse cx="375" cy="278" rx="75" ry="26" fill="#D9E2F3" stroke="#2F5496" stroke-width="1.5"/>
+<text x="375" y="284" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">分类与搜索</text>
+<ellipse cx="375" cy="348" rx="75" ry="26" fill="#D9E2F3" stroke="#2F5496" stroke-width="1.5"/>
+<text x="375" y="354" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">AI 智能选餐</text>
+<ellipse cx="375" cy="418" rx="75" ry="26" fill="#D9E2F3" stroke="#2F5496" stroke-width="1.5"/>
+<text x="375" y="424" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">查看比价与榜单</text>
+<ellipse cx="375" cy="488" rx="75" ry="26" fill="#D9E2F3" stroke="#2F5496" stroke-width="1.5"/>
+<text x="375" y="494" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">提交用户评价</text>
+<ellipse cx="375" cy="558" rx="75" ry="26" fill="#D9E2F3" stroke="#2F5496" stroke-width="1.5"/>
+<text x="375" y="564" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">加购下单</text>
+<ellipse cx="775" cy="138" rx="75" ry="26" fill="#D9E2F3" stroke="#2F5496" stroke-width="1.5"/>
+<text x="775" y="144" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">用户与内容管理</text>
+<ellipse cx="775" cy="208" rx="75" ry="26" fill="#D9E2F3" stroke="#2F5496" stroke-width="1.5"/>
+<text x="775" y="214" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">商家菜品上下架</text>
+<ellipse cx="775" cy="278" rx="75" ry="26" fill="#D9E2F3" stroke="#2F5496" stroke-width="1.5"/>
+<text x="775" y="284" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">订单与评价管理</text>
+<ellipse cx="775" cy="348" rx="75" ry="26" fill="#D9E2F3" stroke="#2F5496" stroke-width="1.5"/>
+<text x="775" y="354" font-family="Microsoft YaHei" font-size="13" fill="#1F3864" text-anchor="middle">智能体配置</text>
+<line x1="118" y1="188" x2="300" y2="138" stroke="#595959" stroke-width="1.2"/>
+<line x1="118" y1="188" x2="300" y2="208" stroke="#595959" stroke-width="1.2"/>
+<line x1="118" y1="188" x2="300" y2="278" stroke="#595959" stroke-width="1.2"/>
+<line x1="118" y1="188" x2="300" y2="348" stroke="#595959" stroke-width="1.2"/>
+<line x1="118" y1="188" x2="300" y2="418" stroke="#595959" stroke-width="1.2"/>
+<line x1="118" y1="188" x2="300" y2="488" stroke="#595959" stroke-width="1.2"/>
+<line x1="118" y1="188" x2="300" y2="558" stroke="#595959" stroke-width="1.2"/>
+<line x1="1152" y1="188" x2="850" y2="138" stroke="#595959" stroke-width="1.2"/>
+<line x1="1152" y1="188" x2="850" y2="208" stroke="#595959" stroke-width="1.2"/>
+<line x1="1152" y1="188" x2="850" y2="278" stroke="#595959" stroke-width="1.2"/>
+<line x1="1152" y1="188" x2="850" y2="348" stroke="#595959" stroke-width="1.2"/>
+<text x="500" y="368" font-family="Microsoft YaHei" font-size="12" fill="#595959">«include» 调用大模型</text>
+<text x="500" y="392" font-family="Microsoft YaHei" font-size="12" fill="#595959">«extend» 本地规则兜底</text>
+</svg>

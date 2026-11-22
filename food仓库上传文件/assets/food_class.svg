@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1340" height="1010" viewBox="0 0 1340 1010">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="670" y="38" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="26" font-weight="bold" fill="#2F5496" text-anchor="middle">图 5　系统核心类图（9 个实体）</text>
+<rect x="40" y="70" width="380" height="190" rx="6" fill="#FFFFFF" stroke="#2F5496" stroke-width="2"/>
+<rect x="40" y="70" width="380" height="38" fill="#2F5496"/>
+<text x="230" y="95" font-family="Microsoft YaHei" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">User（用户）</text>
+<line x1="40" y1="108" x2="420" y2="108" stroke="#2F5496" stroke-width="1"/>
+<text x="56" y="128" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+userId: String</text>
+<text x="56" y="154" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+username: String</text>
+<text x="56" y="180" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+studentId: String</text>
+<text x="56" y="206" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+password: String</text>
+<text x="56" y="232" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+campus: String</text>
+<rect x="470" y="70" width="380" height="190" rx="6" fill="#FFFFFF" stroke="#2F5496" stroke-width="2"/>
+<rect x="470" y="70" width="380" height="38" fill="#2F5496"/>
+<text x="660" y="95" font-family="Microsoft YaHei" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Restaurant（商家）</text>
+<line x1="470" y1="108" x2="850" y2="108" stroke="#2F5496" stroke-width="1"/>
+<text x="486" y="128" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+restaurantId: String</text>
+<text x="486" y="154" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+name: String</text>
+<text x="486" y="180" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+type: String</text>
+<text x="486" y="206" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+announcement: String</text>
+<text x="486" y="232" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+status: int</text>
+<rect x="900" y="70" width="380" height="242" rx="6" fill="#FFFFFF" stroke="#2F5496" stroke-width="2"/>
+<rect x="900" y="70" width="380" height="38" fill="#2F5496"/>
+<text x="1090" y="95" font-family="Microsoft YaHei" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Dish（菜品）</text>
+<line x1="900" y1="108" x2="1280" y2="108" stroke="#2F5496" stroke-width="1"/>
+<text x="916" y="128" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+dishId: String</text>
+<text x="916" y="154" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+restaurantId: String</text>
+<text x="916" y="180" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+name: String</text>
+<text x="916" y="206" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+price: double</text>
+<text x="916" y="232" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+originalPrice: double</text>
+<text x="916" y="258" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+comparePrice: double</text>
+<text x="916" y="284" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+categoryId: String</text>
+<rect x="40" y="470" width="380" height="216" rx="6" fill="#FFFFFF" stroke="#2F5496" stroke-width="2"/>
+<rect x="40" y="470" width="380" height="38" fill="#2F5496"/>
+<text x="230" y="495" font-family="Microsoft YaHei" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Order（订单）</text>
+<line x1="40" y1="508" x2="420" y2="508" stroke="#2F5496" stroke-width="1"/>
+<text x="56" y="528" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+orderId: String</text>
+<text x="56" y="554" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+userId: String</text>
+<text x="56" y="580" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+totalPrice: double</text>
+<text x="56" y="606" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+status: int</text>
+<text x="56" y="632" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+addressId: String</text>
+<text x="56" y="658" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+createTime: Date</text>
+<rect x="470" y="470" width="380" height="190" rx="6" fill="#FFFFFF" stroke="#2F5496" stroke-width="2"/>
+<rect x="470" y="470" width="380" height="38" fill="#2F5496"/>
+<text x="660" y="495" font-family="Microsoft YaHei" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">OrderItem（明细）</text>
+<line x1="470" y1="508" x2="850" y2="508" stroke="#2F5496" stroke-width="1"/>
+<text x="486" y="528" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+itemId: String</text>
+<text x="486" y="554" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+orderId: String</text>
+<text x="486" y="580" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+dishId: String</text>
+<text x="486" y="606" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+quantity: int</text>
+<text x="486" y="632" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+unitPrice: double</text>
+<rect x="900" y="470" width="380" height="138" rx="6" fill="#FFFFFF" stroke="#2F5496" stroke-width="2"/>
+<rect x="900" y="470" width="380" height="38" fill="#2F5496"/>
+<text x="1090" y="495" font-family="Microsoft YaHei" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Category（分类）</text>
+<line x1="900" y1="508" x2="1280" y2="508" stroke="#2F5496" stroke-width="1"/>
+<text x="916" y="528" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+categoryId: String</text>
+<text x="916" y="554" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+name: String</text>
+<text x="916" y="580" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+sort: int</text>
+<rect x="40" y="800" width="380" height="190" rx="6" fill="#FFFFFF" stroke="#2F5496" stroke-width="2"/>
+<rect x="40" y="800" width="380" height="38" fill="#2F5496"/>
+<text x="230" y="825" font-family="Microsoft YaHei" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Review（评价）</text>
+<line x1="40" y1="838" x2="420" y2="838" stroke="#2F5496" stroke-width="1"/>
+<text x="56" y="858" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+reviewId: String</text>
+<text x="56" y="884" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+userId: String</text>
+<text x="56" y="910" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+dishId: String</text>
+<text x="56" y="936" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+rating: int</text>
+<text x="56" y="962" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+content: String</text>
+<rect x="470" y="800" width="380" height="190" rx="6" fill="#FFFFFF" stroke="#2F5496" stroke-width="2"/>
+<rect x="470" y="800" width="380" height="38" fill="#2F5496"/>
+<text x="660" y="825" font-family="Microsoft YaHei" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Address（地址）</text>
+<line x1="470" y1="838" x2="850" y2="838" stroke="#2F5496" stroke-width="1"/>
+<text x="486" y="858" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+addressId: String</text>
+<text x="486" y="884" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+userId: String</text>
+<text x="486" y="910" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+detail: String</text>
+<text x="486" y="936" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+phone: String</text>
+<text x="486" y="962" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+isDefault: boolean</text>
+<rect x="900" y="800" width="380" height="190" rx="6" fill="#FFFFFF" stroke="#2F5496" stroke-width="2"/>
+<rect x="900" y="800" width="380" height="38" fill="#2F5496"/>
+<text x="1090" y="825" font-family="Microsoft YaHei" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">AIAgentConfig（配置）</text>
+<line x1="900" y1="838" x2="1280" y2="838" stroke="#2F5496" stroke-width="1"/>
+<text x="916" y="858" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+configId: String</text>
+<text x="916" y="884" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+platform: String</text>
+<text x="916" y="910" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+model: String</text>
+<text x="916" y="936" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+fallbackEnabled: boolean</text>
+<text x="916" y="962" font-family="Consolas,monospace" font-size="14" fill="#1F3864">+recommendCount: int</text>
+<line x1="410" y1="590" x2="470" y2="590" stroke="#7F7F7F" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="440" y="578" font-family="Microsoft YaHei" font-size="13" fill="#7F7F7F">1 *</text>
+<line x1="230" y1="230" x2="230" y2="470" stroke="#7F7F7F" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="205" y="360" font-family="Microsoft YaHei" font-size="13" fill="#7F7F7F">1 *</text>
+<line x1="660" y1="230" x2="500" y2="470" stroke="#7F7F7F" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="610" y="350" font-family="Microsoft YaHei" font-size="13" fill="#7F7F7F">1 *</text>
+<line x1="1090" y1="240" x2="1090" y2="470" stroke="#7F7F7F" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="1105" y="360" font-family="Microsoft YaHei" font-size="13" fill="#7F7F7F">1 *</text>
+<line x1="230" y1="680" x2="230" y2="800" stroke="#7F7F7F" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="205" y="750" font-family="Microsoft YaHei" font-size="13" fill="#7F7F7F">1 *</text>
+<text x="670" y="995" font-family="Microsoft YaHei" font-size="14" fill="#595959" text-anchor="middle">注：User 1—* Order／Review／Address；Order 1—* OrderItem；Restaurant 1—* Dish；Category 1—* Dish；Dish 1—* OrderItem／Review</text>
+</svg>
